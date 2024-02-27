@@ -1,0 +1,29 @@
+.appiconcontainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .appiconcontainer img {
+    width: 50%;
+    height: 50%;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  .appiconcontainer .canva{
+    width: 80%;
+    height: 80%;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .appiconcontainer:hover img {
+    filter: grayscale(0%);
+  }
+  
+  /* About.module.css */
+
+.container:hover {
+  outline: 2px solid blue; /* Change the properties as needed */
+  box-shadow: 0 0 10px blue; /* Optional: Add a box shadow for a glowing effect */
+}
