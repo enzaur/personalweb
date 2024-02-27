@@ -59,9 +59,10 @@ const Home = () => {
             </div>
             <h1 className={`${styles.h1} ${largeScreen ? '' : styles.smallScreen}`}>{infoText}{showCursor && <span className={styles.cursor}>|</span>}</h1>
           </div><br/>
-            <Button className={`${styles.button} ${largeScreen ? '' : styles.smallScreenButton} ${largeScreen ? 'btn-xs' : 'btn-lg'}`}>
-            <Link to="/about" className={`${styles.link} btn-link`>Know More</Link>
-            <FontAwesomeIcon icon={faAngleRight} className="ml-2" /></Button>
+        <Button className={`${styles.button} ${largeScreen ? '' : styles.smallScreenButton} ${largeScreen ? 'btn-xs' : 'btn-lg'}`} style={{ color: 'white' }}>
+            <Link to="/about" className="btn-link" style={{ color: 'white' }}>Know More</Link>
+            <FontAwesomeIcon icon={faAngleRight} className="ml-2" />
+        </Button>
         </Col>
         <Col md={6} className="d-flex justify-content-center align-items-center">
           <img src={hero} alt="Logo" className="img-fluid" />
