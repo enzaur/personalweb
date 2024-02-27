@@ -6,7 +6,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
+.link{
+  color: white;
+}
 .Enzo {
     font-size: 5rem; /* Adjust the font size as needed */
     /*background-image: linear-gradient(to bottom, #AED4F2, #588EB8, #CEE7FA); /* Define your gradient colors */
