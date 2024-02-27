@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/Home.module.css';
 import hero from '../assets/hero.svg';
@@ -58,7 +59,9 @@ const Home = () => {
             </div>
             <h1 className={`${styles.h1} ${largeScreen ? '' : styles.smallScreen}`}>{infoText}{showCursor && <span className={styles.cursor}>|</span>}</h1>
           </div><br/>
-          <Button className={`${styles.button} ${largeScreen ? '' : styles.smallScreenButton} ${largeScreen ? 'btn-xs' : 'btn-lg'}`}>Know More <FontAwesomeIcon icon={faAngleRight} className="ml-2" /> </Button>
+            <Button className={`${styles.button} ${largeScreen ? '' : styles.smallScreenButton} ${largeScreen ? 'btn-xs' : 'btn-lg'}`}>
+            <Link to="/about" className="btn-link">Know More</Link>
+            <FontAwesomeIcon icon={faAngleRight} className="ml-2" /></Button>
         </Col>
         <Col md={6} className="d-flex justify-content-center align-items-center">
           <img src={hero} alt="Logo" className="img-fluid" />
