@@ -97,16 +97,16 @@ const Contact = () => {
         <Col md={6}>
           <h2 className='text-center'>Follow Me</h2>
           <div className="d-flex justify-content-around">
-            <a href="https://www.facebook.com" target="https://www.facebook.com/lawrehnzoh" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/lawrehnzoh" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} size="2x" className="mr-3" />
             </a>
-            <a href="https://www.instagram.com" target="https://www.instagram.com/__nxcz0/" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/__nxcz0/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} size="2x" className="mr-3" />
             </a>
-            <a href="https://www.messenger.com" target="m.me/lawrehnzoh" rel="noopener noreferrer">
+            <a href="m.me/lawrehnzoh" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebookMessenger} size="2x" className="mr-3" />
             </a>
-            <a href="https://www.github.com" target="https://github.com/enzaur" rel="noopener noreferrer">
+            <a href="https://github.com/enzaur" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
           </div>
